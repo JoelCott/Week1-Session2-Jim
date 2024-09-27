@@ -24,6 +24,7 @@ print(username)
 username = True
 print(username)"""
 
+"""
 fName = "Joel"
 Age = "18"
 City = None
@@ -40,6 +41,19 @@ print(Country)
 Country = "USA"
 Colour = input("Enter fav colour: ")
 print("Your fav colour is:",Colour)
+"""
 
+userAge = input("What is your age?: ")
 
+#print(type(userAge))
+#userAge = int(userAge)
+#print(type(userAge))
+
+def AgeforUser(userAge):
+    print(type(userAge))
+    userAge = int(userAge)
+    print(type(userAge))
+    
+print(AgeforUser(userAge))
+    
 
